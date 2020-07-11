@@ -21,7 +21,7 @@
     <ClCompile Include="interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="backbone.cpp">
+    <ClCompile Include="brain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="backbone.h">
+    <ClInclude Include="brain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

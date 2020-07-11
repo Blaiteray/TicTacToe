@@ -139,12 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="backbone.cpp" />
+    <ClCompile Include="brain.cpp" />
     <ClCompile Include="interface.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="backbone.h" />
+    <ClInclude Include="brain.h" />
     <ClInclude Include="interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

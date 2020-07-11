@@ -4,7 +4,7 @@
 #include <time.h>
 
 
-class master {
+class brain {
 private:
 
 public:

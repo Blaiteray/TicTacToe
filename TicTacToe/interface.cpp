@@ -18,11 +18,6 @@ void game::refresh()
 
 
 
-
-
-
-
-
 void game::grid(bool x, short y)        // x=0 means move of comuputer, otherwise it's users
 {
 	// Assigning part -1 :
@@ -63,8 +58,6 @@ void game::grid(bool x, short y)        // x=0 means move of comuputer, otherwis
 		std::cout << "Max number of move exceeded!\n";
 	}
 }
-
-
 
 
 
