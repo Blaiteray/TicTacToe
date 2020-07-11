@@ -5,19 +5,14 @@
 
 int main()
 {
-	//toss starts
-	char toss;
+
+
 	srand(time(NULL));
-	int toss_result = rand() % 2;
-	std::cout << "Welcome! Write 'h' to choose head, or 't' to choose tail: ";
-	std::cin >> toss;
-	if ((toss == 'h' && toss_result == 1) || (toss == 't' && toss_result == 0)) {
-		std::cout << "You won the toss! Press enter to start the game.";
-	}
-	else {
-		std::cout << "You lost the toss.";
-	}
-	//end toss
+	int toss_result = rand();
+	std::cout << toss_result << std::endl;
+	int new_rand = rand();
+	std::cout << new_rand;
+	
 	
 	
 
